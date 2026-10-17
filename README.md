@@ -11,24 +11,28 @@ Além dos notebooks resolvidos e executados, o projeto inclui versões completas
 
 ```text
 fase3-TrabalhoIA/
-├── TRABALHO_3_PARTE_1_Algoritmo_Naive_Bayes_RESOLVIDO.ipynb
-├── TRABALHO_3_PARTE_2_Arvores_de_Decisao_RESOLVIDO.ipynb
-├── trabalho_3_naive_bayes.py
-├── trabalho_3_parte_2_arvores_random_forest.py
-├── risco_credito.csv
-├── risco_credito.pkl
-├── credit.pkl
-├── arvore_risco_credito.png
-├── arvore_credit.png
-├── matriz_confusao_arvore_credit.png
-├── matriz_confusao_random_forest.png
+├── Parte-1/
+│   ├── TRABALHO_3_PARTE_1_Algoritmo_Naive_Bayes_RESOLVIDO.ipynb
+│   ├── trabalho_3_naive_bayes.py
+│   ├── risco_credito.csv
+│   └── risco_credito.pkl
+├── Parte-2/
+│   ├── TRABALHO_3_PARTE_2_Arvores_de_Decisao_RESOLVIDO.ipynb
+│   ├── trabalho_3_parte_2_arvores_random_forest.py
+│   ├── credit.pkl
+│   ├── arvore_risco_credito.png
+│   ├── arvore_credit.png
+│   ├── matriz_confusao_arvore_credit.png
+│   └── matriz_confusao_random_forest.png
 ├── requirements.txt
 └── Documentacao-Estudo/
     ├── README.md
-    ├── DOCUMENTACAO_CODIGO.md
-    ├── DOCUMENTACAO_PARTE_2.md
-    ├── ROTEIRO_APRESENTACAO.md
-    └── ROTEIRO_APRESENTACAO_PARTE_2.md
+    ├── Parte-1/
+    │   ├── DOCUMENTACAO_CODIGO.md
+    │   └── ROTEIRO_APRESENTACAO.md
+    └── Parte-2/
+        ├── DOCUMENTACAO_PARTE_2.md
+        └── ROTEIRO_APRESENTACAO_PARTE_2.md
 ```
 
 ## Parte 1 — Gaussian Naïve Bayes
@@ -109,10 +113,10 @@ O notebook também mostra as probabilidades estimadas para cada classe, as class
 
 ### Arquivos da Parte 1
 
-- `TRABALHO_3_PARTE_1_Algoritmo_Naive_Bayes_RESOLVIDO.ipynb`: notebook completo e executado;
-- `trabalho_3_naive_bayes.py`: versão autônoma do código Python;
-- `risco_credito.csv`: base de dados original;
-- `risco_credito.pkl`: base pré-processada gerada pelo código.
+- `Parte-1/TRABALHO_3_PARTE_1_Algoritmo_Naive_Bayes_RESOLVIDO.ipynb`: notebook completo e executado;
+- `Parte-1/trabalho_3_naive_bayes.py`: versão autônoma do código Python;
+- `Parte-1/risco_credito.csv`: base de dados original;
+- `Parte-1/risco_credito.pkl`: base pré-processada gerada pelo código.
 
 ## Parte 2 — Árvores de Decisão e Random Forest
 
@@ -267,13 +271,13 @@ Em análise de crédito, o falso negativo da classe 1 é especialmente important
 
 ### Arquivos da Parte 2
 
-- `TRABALHO_3_PARTE_2_Arvores_de_Decisao_RESOLVIDO.ipynb`: notebook completo e executado;
-- `trabalho_3_parte_2_arvores_random_forest.py`: versão autônoma do código;
-- `credit.pkl`: conjuntos de treinamento e teste;
-- `arvore_risco_credito.png`: árvore da base didática;
-- `arvore_credit.png`: árvore da Credit Data;
-- `matriz_confusao_arvore_credit.png`: matriz da árvore;
-- `matriz_confusao_random_forest.png`: matriz da Random Forest.
+- `Parte-2/TRABALHO_3_PARTE_2_Arvores_de_Decisao_RESOLVIDO.ipynb`: notebook completo e executado;
+- `Parte-2/trabalho_3_parte_2_arvores_random_forest.py`: versão autônoma do código;
+- `Parte-2/credit.pkl`: conjuntos de treinamento e teste;
+- `Parte-2/arvore_risco_credito.png`: árvore da base didática;
+- `Parte-2/arvore_credit.png`: árvore da Credit Data;
+- `Parte-2/matriz_confusao_arvore_credit.png`: matriz da árvore;
+- `Parte-2/matriz_confusao_random_forest.png`: matriz da Random Forest.
 
 ## Instalação
 
@@ -293,13 +297,13 @@ No Visual Studio Code, selecione o interpretador `.venv\Scripts\python.exe` por 
 ### Parte 1
 
 ```powershell
-.\.venv\Scripts\python.exe trabalho_3_naive_bayes.py
+.\.venv\Scripts\python.exe Parte-1\trabalho_3_naive_bayes.py
 ```
 
 ### Parte 2
 
 ```powershell
-.\.venv\Scripts\python.exe trabalho_3_parte_2_arvores_random_forest.py
+.\.venv\Scripts\python.exe Parte-2\trabalho_3_parte_2_arvores_random_forest.py
 ```
 
 Também é possível abrir os arquivos `.ipynb` no Jupyter Notebook, Google Colab ou Visual Studio Code.

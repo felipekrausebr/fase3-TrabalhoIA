@@ -21,7 +21,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 
 PASTA_PROJETO = Path(__file__).resolve().parent
-CAMINHO_RISCO = PASTA_PROJETO / "risco_credito.pkl"
+CAMINHO_RISCO = PASTA_PROJETO.parent / "Parte-1" / "risco_credito.pkl"
 CAMINHO_CREDIT = PASTA_PROJETO / "credit.pkl"
 
 

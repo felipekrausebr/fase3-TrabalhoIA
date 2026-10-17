@@ -12,11 +12,11 @@ Na base Credit Data, a classe `0` representa o cliente que paga a dívida, e a c
 ## 2. Importação dos dados pré-processados
 
 ```python
-with open('risco_credito.pkl', 'rb') as arquivo:
+with open('../Parte-1/risco_credito.pkl', 'rb') as arquivo:
     X_risco_credito, y_risco_credito = pickle.load(arquivo)
 ```
 
-O arquivo da Parte 1 contém `X`, com os quatro atributos já codificados numericamente, e `y`, com as classes de risco.
+O arquivo da Parte 1 contém `X`, com os quatro atributos já codificados numericamente, e `y`, com as classes de risco. No código final, o caminho é construído com `pathlib` para funcionar a partir da nova organização de pastas.
 
 O arquivo `credit.pkl` contém quatro arrays:
 
